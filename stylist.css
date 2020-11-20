@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+html {
+    background-color: #F3ECE3;
+}
+main {
+    max-width: 50em;
+    margin: auto;
+}
+header{
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+#cover-image {
+    background-color: grey;
+    background-image: url("images/tokyo-ghoul-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+}
+body{
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    color: #555;
+}
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+img{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+.column {
+    float: left;
+    padding: 5px;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+#box {
+    /* background-color: #D3D3D3; */
+    width: 100%;
+    border: 20px black;
+    padding: 50px;
+    align: right;
+}
