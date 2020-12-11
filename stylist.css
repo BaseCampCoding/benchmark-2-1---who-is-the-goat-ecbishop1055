@@ -51,3 +51,22 @@ img{
     padding: 50px;
     align: right;
 }
+
+@media screen and (max-width: 600px){
+    div.box {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+  div.box {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+    div.box {
+      font-size: 80px;
+    }
+  }
